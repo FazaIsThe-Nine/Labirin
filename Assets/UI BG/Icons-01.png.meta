@@ -263,7 +263,7 @@ TextureImporter:
         width: 1392
         height: 1396
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -271,6 +271,27 @@ TextureImporter:
       bones: []
       spriteID: f088ae4ea71afef4ba20327913746f25
       internalID: -1772032953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TryAgain
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 1366
+        width: 1390
+        height: 1400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2ab6714a5fc854ea66d9ff024d1770
+      internalID: -329879085
       vertices: []
       indices: 
       edges: []
@@ -292,6 +313,7 @@ TextureImporter:
       Play: 254133501
       Quit: -1026715355
       Restart: -870073524
+      TryAgain: -329879085
       option: -1772032953
   spritePackingTag: 
   pSDRemoveMatte: 0

@@ -35,6 +35,6 @@ public class PlayManager : MonoBehaviour
         return coinCount;
     }
     public void Update() {
-        coinText.text = "Coin: " + coinCount.ToString();
+        coinText.text = ": " + coinCount.ToString();
     }
 }

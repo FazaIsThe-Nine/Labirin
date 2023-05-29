@@ -12,4 +12,9 @@ public class OptionPanel : MonoBehaviour
     {
         mutetoggle.isOn = audioManager.IsMute;
     }
+    public void SaveSettings () 
+    {
+        PlayerPrefs.SetFloat("bgmVolume", audioManager.BgmVolume);
+        PlayerPrefs.SetInt("mute", audioManager.IsMute ? 1 : 0);
+    }
 }

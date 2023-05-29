@@ -9,7 +9,6 @@ public class CountDown : MonoBehaviour
     [SerializeField] int duration;
     public UnityEvent OnCountFinished = new UnityEvent();
     public UnityEvent<int> OnCount = new UnityEvent<int>();
-    bool isCounting;
     Coroutine countCoroutine;
     public void StartCount () 
     {

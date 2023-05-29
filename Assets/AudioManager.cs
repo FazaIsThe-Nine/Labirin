@@ -24,6 +24,7 @@ public class AudioManager : MonoBehaviour
             DontDestroyOnLoad(bgm.gameObject);
         }
         bgm.volume = PlayerPrefs.GetFloat("bgmVolume",1);
+        bgm.mute = PlayerPrefs.GetInt("mute") == 0? false : true;
     }
     public void PlayBGM (AudioClip clip, bool loop = true) 
     {
